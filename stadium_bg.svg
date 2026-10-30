@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <!-- Warm Editorial Architectural Stadium Ground Engraving -->
+  <defs>
+    <pattern id="hatch" width="12" height="12" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#5c5549" stroke-width="0.7" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base: Warm Parchment Wash -->
+  <rect width="1920" height="1080" fill="#f5f0e6"/>
+
+  <!-- Grandstand Architectural Outer Contours -->
+  <path d="M-80,680 Q960,420 2000,680" fill="none" stroke="#6b6254" stroke-width="2.5" stroke-dasharray="14,8"/>
+  <path d="M-80,720 Q960,460 2000,720" fill="none" stroke="#524a3e" stroke-width="3"/>
+  <path d="M-80,750 Q960,500 2000,750" fill="none" stroke="#756b5b" stroke-width="1.5"/>
+  <path d="M-80,780 Q960,530 2000,780" fill="none" stroke="#8a7e6d" stroke-width="1.2"/>
+
+  <!-- Hatching on Upper Tier Stand -->
+  <path d="M-80,680 Q960,420 2000,680 L2000,720 Q960,460 -80,720 Z" fill="url(#hatch)"/>
+
+  <!-- Pavilion Roof Silhouettes & Floodlight Columns (Architectural Style) -->
+  <!-- Left Pavilion Structure -->
+  <polygon points="160,380 280,380 260,680 180,680" fill="#d9d1c1" stroke="#524a3e" stroke-width="2"/>
+  <polygon points="140,380 300,380 220,330" fill="#c7bead" stroke="#524a3e" stroke-width="2"/>
+  <line x1="220" y1="330" x2="220" y2="280" stroke="#524a3e" stroke-width="2"/>
+
+  <!-- Right Pavilion Structure -->
+  <polygon points="1640,380 1760,380 1740,680 1660,680" fill="#d9d1c1" stroke="#524a3e" stroke-width="2"/>
+  <polygon points="1620,380 1780,380 1700,330" fill="#c7bead" stroke="#524a3e" stroke-width="2"/>
+  <line x1="1700" y1="330" x2="1700" y2="280" stroke="#524a3e" stroke-width="2"/>
+
+  <!-- Central Members Pavilion Clocktower Arch -->
+  <polygon points="900,430 1020,430 1000,600 920,600" fill="#e3dbcb" stroke="#524a3e" stroke-width="2"/>
+  <polygon points="880,430 1040,430 960,370" fill="#cfc6b4" stroke="#524a3e" stroke-width="2"/>
+  <circle cx="960" cy="460" r="16" fill="none" stroke="#524a3e" stroke-width="2"/>
+
+  <!-- Outfield Ground Contour (Classic Oval) -->
+  <ellipse cx="960" cy="880" rx="840" ry="280" fill="#ece5d8" stroke="#524a3e" stroke-width="2"/>
+  
+  <!-- Boundary Rope -->
+  <ellipse cx="960" cy="880" rx="760" ry="245" fill="none" stroke="#756b5b" stroke-width="2.5" stroke-dasharray="10,6"/>
+  
+  <!-- 30-Yard Infield Ring -->
+  <ellipse cx="960" cy="880" rx="460" ry="150" fill="none" stroke="#8a7e6d" stroke-width="1.8" stroke-dasharray="6,6"/>
+
+  <!-- 22-Yard Cricket Pitch (Center Strip) -->
+  <polygon points="930,810 990,810 1015,970 905,970" fill="#dfd5c2" stroke="#524a3e" stroke-width="2"/>
+  <!-- Popping and Bowling Creases -->
+  <line x1="915" y1="835" x2="1005" y2="835" stroke="#524a3e" stroke-width="2"/>
+  <line x1="895" y1="950" x2="1025" y2="950" stroke="#524a3e" stroke-width="2"/>
+
+  <!-- Wickets / Stumps -->
+  <line x1="954" y1="822" x2="954" y2="835" stroke="#3b352b" stroke-width="2.5"/>
+  <line x1="960" y1="822" x2="960" y2="835" stroke="#3b352b" stroke-width="2.5"/>
+  <line x1="966" y1="822" x2="966" y2="835" stroke="#3b352b" stroke-width="2.5"/>
+
+  <line x1="952" y1="935" x2="952" y2="950" stroke="#3b352b" stroke-width="3"/>
+  <line x1="960" y1="935" x2="960" y2="950" stroke="#3b352b" stroke-width="3"/>
+  <line x1="968" y1="935" x2="968" y2="950" stroke="#3b352b" stroke-width="3"/>
+
+  <!-- Radial Mowing Stripes (Subtle Lawn Texture) -->
+  <line x1="960" y1="880" x2="300" y2="860" stroke="#63594a" stroke-width="1" stroke-dasharray="8,12" opacity="0.4"/>
+  <line x1="960" y1="880" x2="520" y2="990" stroke="#63594a" stroke-width="1" stroke-dasharray="8,12" opacity="0.4"/>
+  <line x1="960" y1="880" x2="1400" y2="990" stroke="#63594a" stroke-width="1" stroke-dasharray="8,12" opacity="0.4"/>
+  <line x1="960" y1="880" x2="1620" y2="860" stroke="#63594a" stroke-width="1" stroke-dasharray="8,12" opacity="0.4"/>
+</svg>
